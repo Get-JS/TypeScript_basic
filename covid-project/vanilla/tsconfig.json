@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true, // js파일 허용
+    "target": "ES5", // 컴파일 후 빌드된 JS 버전
+    "outDir": "./dist", // 컴파일 최종 제출 공간
+    "moduleResolution": "Node",
+    "lib": ["ES2015", "DOM", "DOM.Iterable"], // libray 추가
+    "noImplicitAny": true, // 타입을 무조건 정의 하기
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./types"], // 타입 모듈 폴더 지정
+    "strict": true,
+    "strictFunctionTypes": true
+  },
+  "include": ["./src/**/*"] // 컴파일 파일 경로
+}

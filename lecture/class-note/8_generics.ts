@@ -1,5 +1,5 @@
 // why generics?
-(()=>{
+(() => {
   
 function logTextAny(text: any): any {
   console.log(text);
